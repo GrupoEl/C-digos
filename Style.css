@@ -1,0 +1,168 @@
+body,html{
+    margin: 0%;
+    height: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+#ContainerTitle{
+    width:100%;
+    background-color: #2c6704;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0%;
+    margin-bottom: 2rem;
+}
+
+h2{
+    font-family: sans-serif;
+    margin-bottom: -2px;
+    color: green;
+}
+
+#ContainerText{
+    height: 80%;
+    width: 60%;
+    background-color: rgb(234, 235, 225);
+    display: flex;
+    flex-direction: column;
+    padding: 9vw;
+    justify-content: center;
+    
+}
+
+.ImgTema{
+   height: 300px;
+    width: 60vw;
+    border-radius: 5%;
+    object-fit: cover;
+    position: absolute;
+    z-index: 2;
+}
+
+#ContainerIMG{
+    width: 60vw;
+    height: 300px;
+    background-color: #00000087;
+    position: relative;
+    z-index: 3;
+    border-radius: 5%;
+}
+#ALingIMG{
+    width: 60vw;
+    height: 300px;
+    display: flex;
+}
+
+.FontImg{
+    font-family: sans-serif;
+    color: white;
+    position: relative;
+    z-index: 4;
+    margin-top: -18px;
+    top: 13rem;
+    left: 5rem;
+}
+p{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.MenuIcon{
+    height: 27px;
+    width: 27px;
+}
+
+.LogoEco{
+    height: 7rem;
+    width: 7rem;
+}
+
+.menu button{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+.MenuAP{
+    position: absolute;
+    left: 0rem;
+    bottom: -7rem;
+    background-color: green;
+    height: 100%;
+    width: 25%;
+    z-index: 5;
+    display: none;
+}
+
+.itemList{
+    list-style: none;
+    margin: 2.5rem;
+   
+}
+
+a{
+    font-family: sans-serif;
+    font-size: 22px;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+#AlingMenu{
+    display: flex;
+    justify-content: center;
+}
+
+.open{
+    display: block;
+}
+.PesquisaCont{
+    display: flex;
+    align-items: center;
+    
+}
+
+.PesquisaCont img{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    z-index: 2;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.PesquisaCont input{
+    border: 1px;
+    border-radius: 10%;
+    position: relative;
+    z-index: 1;
+    padding: 10px;
+    padding-left: 40px;
+}
+
+
+.list .active{
+    display: block;
+}
+
+.list .active li{
+    width: 220px;
+    opacity: 1;
+    overflow-y: auto;
+}
+
+.PFlorest{
+    margin-bottom: -4px;
+}
+
+.ListRef{
+    font-size: 18px;
+    font-family: sans-serif;
+    margin-bottom: 1rem;
+}
