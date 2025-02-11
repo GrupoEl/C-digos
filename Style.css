@@ -9,7 +9,7 @@ body,html{
 #ContainerTitle{
     width:100%;
     background-color: #2c6704;
-    height: 20%;
+    height: 17%;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -24,7 +24,7 @@ h2{
 }
 
 #ContainerText{
-    height: 80%;
+    height: 100%;
     width: 60%;
     background-color: rgb(234, 235, 225);
     display: flex;
@@ -41,6 +41,7 @@ h2{
     object-fit: cover;
     position: absolute;
     z-index: 2;
+    bottom: 7rem;
 }
 
 #ContainerIMG{
@@ -50,6 +51,7 @@ h2{
     position: relative;
     z-index: 3;
     border-radius: 5%;
+    bottom: 10.25rem;
 }
 #ALingIMG{
     width: 60vw;
@@ -92,7 +94,7 @@ p{
 .MenuAP{
     position: absolute;
     left: 0rem;
-    bottom: -7rem;
+    bottom: -6.7rem;
     background-color: green;
     height: 100%;
     width: 25%;
@@ -165,4 +167,20 @@ a{
     font-size: 18px;
     font-family: sans-serif;
     margin-bottom: 1rem;
+}
+
+.ALingTxt{
+    margin-top: -6rem;
+    display: flex;
+    flex-direction: column;}
+
+footer{
+position: fixed;
+bottom: 0px;
+ display: flex;
+  padding: 5px;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  background-color: #2c6704;
 }
