@@ -1,12 +1,18 @@
-function MenuShow(){
-    let MenuAPR = document.querySelector(".MenuAP")
-    if(MenuAPR.classList.contains("open")){
+
+function MenuShow() {
+    let MenuAPR = document.querySelector(".MenuAP");
+    let MenuIcon = document.querySelector(".MenuIcon");
+
+    if (MenuAPR.classList.contains("open")) {
         MenuAPR.classList.remove("open");
-        document.querySelector(".MenuIcon").src="./Icon-Menu.svg"
-    }else{MenuAPR.classList.add("open")
-         document.querySelector(".MenuIcon").src="./Menu-Icon-x.svg"
+        MenuIcon.src = "./Icon-Menu.svg";
+    } else {
+        MenuAPR.classList.add("open");
+        MenuIcon.src = "./Menu-Icon-x.svg";
     }
 }
+
+
 
 let MySeach = document.querySelector(".PesquisaCont")
 let inputBox = MySeach.querySelector("input")
