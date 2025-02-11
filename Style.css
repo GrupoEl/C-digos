@@ -102,6 +102,10 @@ p{
     display: none;
 }
 
+.MenuAP.open{
+    display: block;
+}
+
 .itemList{
     list-style: none;
     margin: 2.5rem;
