@@ -1,4 +1,3 @@
-
 function MenuShow() {
     let MenuAPR = document.querySelector(".MenuAP");
     let MenuIcon = document.querySelector(".MenuIcon");
@@ -6,8 +5,14 @@ function MenuShow() {
     if (MenuAPR.classList.contains("open")) {
         MenuAPR.classList.remove("open");
         MenuIcon.src = "./Icon-Menu.svg";
+        setTimeout(() => {
+            MenuAPR.style.display = "none";
+        }, 500);
     } else {
-        MenuAPR.classList.add("open");
+        MenuAPR.style.display = "block";
+        setTimeout(() => {
+            MenuAPR.classList.add("open");
+        },10);
         MenuIcon.src = "./Menu-Icon-x.svg";
     }
 }
