@@ -96,6 +96,8 @@ p{
     left: 0rem;
     bottom: -6.7rem;
     background-color: green;
+    color: white;
+    overflow: hidden;
     height: 100%;
     width: 25%;
     z-index: 5;
