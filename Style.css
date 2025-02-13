@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 body,html{
     margin: 0%;
     height: 100%;
    display: flex;
    flex-direction: column;
    align-items: center;
+   font-family: 'Roboto', sans-serif;
 }
 
 #ContainerTitle{
@@ -102,10 +105,13 @@ p{
     width: 25%;
     z-index: 5;
     display: none;
+    transition: transform 0.5s ease;
+    transform: translateX(-100%);
 }
 
 .MenuAP.open{
     display: block;
+    transform: translateX(0%);
 }
 
 .itemList{
@@ -147,7 +153,6 @@ a{
 
 .PesquisaCont input{
     border: 1px;
-    border-radius: 10%;
     position: relative;
     z-index: 1;
     padding: 10px;
